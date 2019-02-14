@@ -3,7 +3,7 @@ import './nested.scss'
 
 const NestedNav = (props) => {
 
-  const {data} = props
+  const {data} = props ///use props classnames and limit scss files
 
   const mappedChildren = (child) => {
     let childElement
