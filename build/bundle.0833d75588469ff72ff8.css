@@ -1,0 +1,32 @@
+* {
+  position: static;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  list-style: none; }
+
+html, body {
+  position: absolute; }
+  html html, body html {
+    font-size: 62.5%; }
+  html head, html link, html script, body head, body link, body script {
+    display: none; }
+  html body, body body {
+    position: relative; }
+  html span, html em, html strong, html i, body span, body em, body strong, body i {
+    display: inline; }
+
+input:focus, textarea:focus {
+  outline: none;
+  border: none; }
+
+body, html {
+  margin: 0% auto;
+  padding: 0%; }
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJidW5kbGUuMDgzM2Q3NTU4ODQ2OWZmNzJmZjguY3NzIiwic291cmNlUm9vdCI6IiJ9*/
