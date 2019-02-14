@@ -1,5 +1,6 @@
 import React from 'react'
 import NestedNav from './nestedNav'
+import './nav.scss'
 
 const NavContainer = (props) => {
   const DATA = props.data
@@ -7,7 +8,7 @@ const NavContainer = (props) => {
     <div className='nav-container'>
       <NestedNav
         parentClass='parent'
-        nestParentClass='nested-parent'
+        nestedParentClass='nested-parent'
         childClass='child'
         data={DATA}
       />

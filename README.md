@@ -1,8 +1,19 @@
-# react-infinity-menu
+# React infinity menu
 
-## color-scheme selected
+## Developed using
 
-### simplistic/calming colors chosen for daily use of work app
+- React
+- Sass
+- Webpack
+
+Whiteboard wireframes & development process can be found in wireframes directory.
+
+### Color-scheme selected
+
+Simplistic colors chosen for
+
+- daily use
+- relaxed work environment
 
 | hex           | rgb           | purpose       |
 | ------------- | ------------- | ------------- |
