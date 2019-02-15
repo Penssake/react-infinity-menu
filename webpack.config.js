@@ -43,6 +43,7 @@ module.exports = {
   devtool: process.env.NODE_ENV ? undefined : 'inline-source-map',
   entry: `${__dirname}/src/index.js`,
   devServer: {
+    port: 8008,
     historyApiFallback: true,
     hot: true,
     open: true,

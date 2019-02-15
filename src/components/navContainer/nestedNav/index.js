@@ -1,9 +1,8 @@
 import React, {Component} from 'react'
-import './nested.scss'
 
 const NestedNav = (props) => {
 
-  const {data} = props ///use props classnames and limit scss files
+  const {data, parentClass, nestedParentClass, childClass} = props
 
   const mappedChildren = (child) => {
     let childElement
@@ -12,7 +11,7 @@ const NestedNav = (props) => {
         key={i}
         id={child.id}
         url={child.url}>{child.title}
-        <ul className='second-nest'>{mappedChildren(child.children)}</ul>
+        <ul className={childClass}>{mappedChildren(child.children)}</ul>
       </li>
       )}
     return ''
@@ -20,8 +19,9 @@ const NestedNav = (props) => {
   const navListItems = data.map((collection, i) => <li
     key={i}
     id={collection.id}
+    className={parentClass}
     url={collection.url}><span>{collection.icon}</span>{collection.title}
-    <ul className='first-nest'>{mappedChildren(collection.children)}</ul>
+    <ul className={nestedParentClass}>{mappedChildren(collection.children)}</ul>
   </li>)
 
   return (
