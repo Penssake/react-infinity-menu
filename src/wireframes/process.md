@@ -6,9 +6,9 @@
 - [ x ] Hello World app - branch hello-world
 - [ x ] README - branch hello-world
 - [ x ] Set-up file structure - branch file-structure-webpack
-- [ ] Deploy web pack - branch file-structure-webpack
-- [ ] Collect assets - branch assets-collection
-- [ ] Create color scheme - 3 minimum - monochromatic - branch assets-collection
+- [ x ] Deploy web pack - branch file-structure-webpack
+- [ x ] Collect assets - branch assets-collection
+- [ x ] Create color scheme - 3 minimum - monochromatic - branch assets-collection
 
 ### Component order - STATE
 
@@ -29,9 +29,6 @@
 - First child object is Parent with nested parent.
 - Second child object is childless Parent.
 - Third is Parent with NestedParent with children.
-- Data.length determines child starting ID - counts down
-- Parent ID starts at 0 - counts up
-- Nested Parents no ID
 
 ```js
 export const data = [

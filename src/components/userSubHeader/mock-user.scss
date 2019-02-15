@@ -1,0 +1,13 @@
+@import '../../styles/_vars.scss';
+
+.mock-user {
+    width: 100vw;
+    height: 15vh;
+    color: $font-color;
+    background: $parentLIGradient;
+    h1 {
+        color: $base-color; 
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+}
