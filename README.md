@@ -1,5 +1,11 @@
 # React infinity menu
 
+### to run
+
+- cd into src directory
+- npm i
+- npm watch
+
 ## Developed using
 
 - React
