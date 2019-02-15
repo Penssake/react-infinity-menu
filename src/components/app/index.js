@@ -13,7 +13,7 @@ const App = (props) => {
   return (
     <BrowserRouter>
       <div>
-        <div className='app-overlay'><h1>Currently only meant to size to 700px</h1></div>
+        <div className='app-overlay'><h1 className='overlay'>Currently only meant to size to 700px</h1></div>
         <div className='app'>
           <Header />
           <Hamburger />
