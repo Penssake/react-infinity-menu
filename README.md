@@ -1,4 +1,4 @@
-# React infinity menu
+# Sassy React infinity menu
 
 ### to run
 
