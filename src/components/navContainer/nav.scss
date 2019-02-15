@@ -1,0 +1,28 @@
+@import '../../styles/_vars.scss';
+
+.nav-container {
+    height: 80vh;
+    width: 100vw;
+    position: absolute;
+    background-color: $parentLI;
+}
+.nested-nav {
+    span {
+        margin: 0 1rem 0 1rem;
+    }
+    li {
+        margin-top: 1rem;
+    }
+    .parent {
+        background-color: $parentLI;
+        margin: 0;
+    }
+    ul.nested-parent {
+        background-color: $nestedParentLI;
+        display: none;
+    }
+    ul.child {
+        background-color: $childLI;
+        display: none;
+    }
+}
